@@ -22,12 +22,12 @@
           <template v-else>{{ node }}</template>
         </template>
       </div>
+      <!-- <div>{{ $moment(post.createdAt).fromNow() }}</div> -->
     </v-card-text>
   </div>
 </template>
 
 <script>
-  import { mapState } from 'vuex';
   import PostImages from './PostImages';
   
   export default {
